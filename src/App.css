@@ -1,8 +1,8 @@
 .App {
-  /*text-align: center;*/
+  text-align: center;
   border: 1px solid;
-  /*width: 200px;*/
-  /*margin: 20px auto;*/
-  /*padding: 10px;*/
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
 }
 

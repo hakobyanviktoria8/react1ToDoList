@@ -11,9 +11,10 @@ export default function App() {
     ];
     function toggleTodo(id) {
         // console.log("todo id" , id);
-        todos = todos.map(todo=>{
+        todos = todos.map(todo => {
             if (todo.id === id){
-                todo.completed = !todo.completed
+                todo.completed = !todo.completed;
+                console.log(todo.completed)
             }
             return todo
         })
